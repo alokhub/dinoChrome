@@ -89,6 +89,7 @@ export class GamePlay extends Component {
                 {
                     let currPos = element.getPosition();
                     console.log('for each called');
+                    console.log('for each called test git commit');
                     element.setPosition(new Vec3(currPos.x-11,currPos.y,1))
                     if(element.getPosition().x < -500)
                     {
